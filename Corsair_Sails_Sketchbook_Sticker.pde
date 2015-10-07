@@ -15,7 +15,7 @@ void draw () {
  curveVertex(55, 175);
  curveVertex(65, 165);
  curveVertex(127.5, 165);
- curveVertex(185, 145);
+ curveVertex(185, 296);
  // -- End hull of ship -- //
  
  endShape();
