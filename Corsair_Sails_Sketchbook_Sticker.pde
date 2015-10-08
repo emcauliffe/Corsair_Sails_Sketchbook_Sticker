@@ -11,7 +11,14 @@ void setup () {
 void draw () {
   noStroke();
   fill(0, 0, 0);
+
+
+  // ----------------------------------------------------//
+
+
+  // -- BEGIN BOAT -- //
   beginShape();
+
   // -- Begin hull of ship -- //
   vertex(15, 185);
   curveVertex(55, 176);
@@ -78,4 +85,102 @@ void draw () {
   curveVertex(-40, 201);
   // -- End back of third sail -- //
   endShape();
+
+  // -- END BOAT -- //
+
+
+  // ------------------------------------------------------ // 
+
+
+  // -- BEGIN FLAG ONE -- //
+  beginShape();
+  // -- Begin front of flag one -- //
+  curveVertex(-8, 109);
+  curveVertex(112.5, 115);
+  curveVertex(76, 70);
+  curveVertex(-15, 102);
+  vertex(76, 70);
+  // -- End front of flag one -- //
+
+  // -- Begin back of flag one -- //
+  curveVertex(70, 55);
+  curveVertex(76, 70);
+  curveVertex(85, 95);
+  curveVertex(69, 158);
+  vertex(85, 95);
+  // -- End back of flag one -- //
+
+  // -- Begin bottom of flag one -- //
+  curveVertex(100, 87);
+  curveVertex(92, 95);
+  curveVertex(112.5, 115);
+  curveVertex(82, 166);
+  // -- End bottom of flag one -- //
+  endShape();
+  // -- END FLAG ONE -- //
+
+
+  // -----------------------------------------//
+
+
+  // -- BEGIN FLAG TWO -- //
+  beginShape();
+  
+  // -- Begin front flag two -- //
+  vertex(72.5, 112.5);
+  vertex(69, 99);
+  // -- End front flag two -- //
+  
+  // -- Begin top flag two -- //
+  vertex(51, 86);
+  // -- End top flag two -- //
+  
+  // -- Begin back flag two -- //
+  curveVertex(-6, 14);
+  curveVertex(51, 86);
+  curveVertex(59, 109);
+  curveVertex(27, 140);
+  // -- End back flag two -- //
+  
+  // -- Begin bottom flag two -- //
+  vertex(72.5, 112.5);
+  // -- End bottom flag two -- //
+  
+  endShape();
+  
+  // -- END FLAG TWO -- //
+  
+  
+  //--------------------------------------//
+  
+  
+  // -- BEGIN FLAG THREE -- //
+  
+  beginShape();
+  
+  // -- Begin front flag three -- //
+  vertex(47.5, 124);
+  vertex(42.5, 111);
+  // -- End front flag three -- //
+  
+  // -- Begin top flag three -- //
+  vertex(28, 104);
+  // -- End top flag three -- //
+  
+  // -- Begin back flag three -- //
+  curveVertex(-17, 32);
+  curveVertex(28, 104);
+  curveVertex(36, 121);
+  curveVertex(4, 152);
+  // -- End back flag three -- //
+  
+  // -- Begin bottom flag three -- //
+  vertex(47.5, 124);
+  // -- End bottom flag three -- //
+  
+  endShape();
+  
+  // -- END FLAG THREE -- //
+  
+  // --------------------------------------//
 }
