@@ -13,15 +13,15 @@ void draw () {
   beginShape();
   // -- Begin hull of ship -- //
   vertex(15, 185);
-  curveVertex(55, 175);
-  curveVertex(65, 165);
+  curveVertex(55, 176);
+  curveVertex(126, 141);
   curveVertex(127.5, 165);
   curveVertex(185, 145);
+  endShape();
   // -- End hull of ship -- //
+  
   // -- Begin bow and first sail -- //
-  curveVertex(115, 185);
-  curveVertex(127.5, 156);
-  curveVertex(115, 125);
-  curveVertex(70, 90);
+  beginShape();
+  
   endShape();
 }
