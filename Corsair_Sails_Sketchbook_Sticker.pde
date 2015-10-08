@@ -19,5 +19,9 @@ void draw () {
   curveVertex(185, 145);
   // -- End hull of ship -- //
   // -- Begin bow and first sail -- //
+  curveVertex(115, 185);
+  curveVertex(127.5, 156);
+  curveVertex(115, 125);
+  curveVertex(70, 90);
   endShape();
 }
