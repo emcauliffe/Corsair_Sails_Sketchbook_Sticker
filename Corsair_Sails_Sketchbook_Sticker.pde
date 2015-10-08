@@ -17,11 +17,27 @@ void draw () {
   curveVertex(126, 141);
   curveVertex(127.5, 165);
   curveVertex(185, 145);
-  endShape();
+  vertex(127.5, 165);
   // -- End hull of ship -- //
-  
+
   // -- Begin bow and first sail -- //
-  beginShape();
+  curveVertex(7, 209);
+  curveVertex(127.5, 165);
+  curveVertex(115, 125);
+  curveVertex(50, 75);
+  vertex(115, 125);
+  vertex(70, 90);
+  // -- End of bow and first sail -- //
+  
+  // -- Begin back of first sail -- //
+  curveVertex(-10, 85);
+  curveVertex(70, 90);
+  curveVertex(75, 152.5);
+  curveVertex(70, 100);
+  vertex(75, 152.5);
+  // -- End of back of first sail -- //
+  
+  // -- Begin of front of second sail -- //
   
   endShape();
 }
