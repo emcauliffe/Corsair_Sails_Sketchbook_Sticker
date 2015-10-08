@@ -3,9 +3,9 @@
 //Ethan McAuliffe
 
 void setup () {
-  background(255);
-  frameRate(60);        //Setting up the canvas
-  size(170, 240);
+  background(255);      // <---|
+  frameRate(60);        // <---|  Setting up the canvas
+  size(170, 240);       // <---|
   smooth(400);
 }
 
