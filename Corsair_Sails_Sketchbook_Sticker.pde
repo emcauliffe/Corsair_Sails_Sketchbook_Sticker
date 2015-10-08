@@ -38,6 +38,14 @@ void draw () {
   // -- End of back of first sail -- //
   
   // -- Begin of front of second sail -- //
+  curveVertex(70, 162.5);
+  curveVertex(75, 152.5);
+  curveVertex(75, 122.5);
+  curveVertex(70, 112.5);
+  vertex(75, 122.5);
+  // -- End of front of second sail -- //
+  
+  // -- Begin top of second sail -- //
   
   endShape();
 }
